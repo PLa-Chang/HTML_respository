@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>属性选择器</title>
+    <style>
+        [n] {
+            color: brown;
+        }
+        /* 有type属性的元素 */
+        [type] {
+            font-size: xx-large;
+        }
+        /* type 属性的值是 text 的元素  */
+        [type="text"] {
+            color: blueviolet;
+        }
+
+        /* class 属性的值中包含 a 的元素 */
+        [class~='a'] {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <span n="text">213456</span><br>
+    <!-- 第一种属性选择器的写法 -->
+    <input type="text" value="1234" />
+    <!-- input如果没有指定type，则默认是：text值 -->
+    <input />   <!-- 属性选择器是元素显式声明的属性，不包括继承的属性和默认属性(例如：input的type默认是：text值。 -->
+    <div type="text">测试属性选择器的attr写法</div>
+
+    <!-- 第二种属性选择器的写法：attr=value -->
+    <input type="text" value="1234" />
+    <div type="div">测试属性选择器的attr=value写法</div>
+
+    <!-- 第三种属性选择器的写法：attr~=value -->
+    <div class="a b c d">测试属性选择器的attr~=value写法</div>
+    <div class="a">attr~=value写法</div>
+    <div class="abc">测试属性选择器的attr~=value写法</div>
+</body>
+</html>
