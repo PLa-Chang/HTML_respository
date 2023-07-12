@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>子选择器及后代选择器</title>
+    <style>
+        /* 子元素选择器（child selector）是以一个大于号（>）作为标识符 */
+        /* div > p {
+            font-size: x-large;
+            color: aqua;
+        } */
+        /* 后代选择器（descendant selector）是以一个空格作为标识符 */
+        div p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- 子选择器 -->
+    <div>
+        <p>这个表示子选择器</p>
+    </div>
+
+    <!-- 后代选择器 -->
+    <div>
+        <p>p标签</p>
+        <article>
+            <p>段落2</p>
+        </article>
+    </div>
+</body>
+</html>
