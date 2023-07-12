@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五角星的制作</title>
+    <style>
+        #box1 {
+            width: 0;
+            height: 0;
+            border-top: 106px solid red;
+            border-left: 130px solid transparent;
+            border-right: 130px solid transparent;
+            border-bottom: 130px solid transparent;
+            transform: rotate(0.0deg)  translate(562px,210px);
+        }
+        #box1::before {
+            display: inline-block;
+            content: "";
+            width: 0;
+            height: 0;
+            border-top: 106px solid red;
+            border-left: 130px solid transparent;
+            border-right: 130px solid transparent;
+            border-bottom: 130px solid transparent;
+            transform: rotate(301deg) translate(70px,-133px);
+        }
+        #box1::after {
+            display: inline-block;
+            content: "";
+            width: 0;
+            height: 0;
+            border-top: 106px solid red;
+            border-left: 130px solid transparent;
+            border-right: 130px solid transparent;
+            border-bottom: 130px solid transparent;
+            transform: rotate(82deg) translate(-423px,150px);
+        }
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+    <!-- <div id="box2"></div> -->
+</body>
+</html>
