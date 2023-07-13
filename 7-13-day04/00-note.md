@@ -15,6 +15,7 @@
 - font-family 字体，默认为浏览器默认字体
 - font-style 字体样式，normal, italic, oblique
 - color 颜色
+
 **修饰文本:**
 
 - text-align 文本对齐方式
@@ -68,9 +69,10 @@ margin写法和padding一样。
 本质是让父元素形成BFC，BFC不会发生外边距塌陷。
 
 **BFC**
+
 BFC(Block Formatting Context) 块级格式化上下文，是一个独立的渲染区域，让处于 BFC 内部的元素与外部的元素相互隔离，使内外元素的定位不会相互影响。
 
-如何创建 BFC：
+**如何创建 BFC：**
 
 - 根元素(html)
 - 设置position为absolute或fixed
