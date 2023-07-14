@@ -137,7 +137,7 @@ background-image: url("paper.gif");
 
 4. `background-attachment` 属性用于设置背景图片**是否固定**。值可以是 scroll、fixed。
 
-5. `background-cli`p 属性用于设置背景图片的裁剪方式。值可以是 `border-box、padding-box、content-box`。
+5. `background-clip` 属性用于设置背景图片的裁剪方式。值可以是 `border-box、padding-box、content-box`。
 
 > 如果一个元素同时设置了背景颜色和背景图片，背景图片会显示在背景颜色的上面。可以使用 background-blend-mode 属性设置背景颜色和背景图片的混合模式。值可以是 normal、multiply、screen、overlay、darken、lighten、color-dodge、saturation、color、luminosity。
 
