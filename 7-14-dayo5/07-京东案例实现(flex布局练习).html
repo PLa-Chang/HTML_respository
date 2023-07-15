@@ -14,6 +14,20 @@
         h1 {
             text-align: center;
         }
+/* 每张小图片的大小 */
+        .r {
+            width: 100px;
+            height: 100px;
+        }
+/* 所有图片的尺寸 */
+        .allimg {
+            background-size: 100% 100%;
+        }
+
+        .allsub {
+            font-size: 7px;
+            color: rgb(188, 184, 184);
+        }
 
         .box .row {
             display: flex;
@@ -54,13 +68,11 @@
         /* 左边第一个 */
         .s1-1 {
             background-image: url('/kaifamiao/7-14-dayo5/image/s1-1.webp');
-            background-size: 100% 100%;
         }
 
         /* 左边第二个 */
         .s1-2 {
             background-image: url('/kaifamiao/7-14-dayo5/image/s1-2.webp');
-            background-size: 100% 100%;
         }
 
         /* 左边第三个 */
@@ -71,12 +83,10 @@
 
         .s2-1-1 {
             background-image: url("/kaifamiao/7-14-dayo5/image/s2-1-1.webp");
-            background-size: 100% 100%;
         }
 
         .s2-1-2 {
             background-image: url("/kaifamiao/7-14-dayo5/image/s2-1-2.webp");
-            background-size: 100% 100%;
         }
 
         /* 左边第四个 */
@@ -87,12 +97,10 @@
 
         .s2-2-1 {
             background-image: url("/kaifamiao/7-14-dayo5/image/s2-2-1.webp");
-            background-size: 100% 100%;
         }
 
         .s2-2-2 {
             background-image: url("/kaifamiao/7-14-dayo5/image/s2-2-2.webp");
-            background-size: 100% 100%;
         }
 
         /* 中间部分 */
@@ -120,12 +128,6 @@
         }
 
         /* 右边的每小部分 */
-        /* 每个小部分的大小 */
-        .r {
-            width: 100px;
-            height: 100px;
-        }
-
         .r1-1-1 {
             font-weight: bold;
             font-size: 20px;
@@ -135,70 +137,58 @@
         /* 第一部分 */
         .r1-1 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r1-1.webp');
-            background-size: 100% 100%;
         }
 
 
         .r1-2 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r1-2.webp');
-            background-size: 100% 100%;
         }
 
         /* 第二部分 */
         .r2-1 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r2-1.webp');
-            background-size: 100% 100%;
         }
 
         .r2-2 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r2-2.webp');
-            background-size: 100% 100%;
         }
 
         /* 第三部分 */
         .r3-1 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r3-1.jpg');
-            background-size: 100% 100%;
         }
 
         .r3-2 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r3-2.webp');
-            background-size: 100% 100%;
         }
 
         /* 第四部分 */
 
         .r4-1 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r1-1.webp');
-            background-size: 100% 100%;
         }
 
         .r4-2 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r1-2.webp');
-            background-size: 100% 100%;
         }
 
         /* 第五部分 */
         .r5-1 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r5-1.webp');
-            background-size: 100% 100%;
         }
 
         .r5-2 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r5-1-2.webp');
-            background-size: 100% 100%;
         }
 
         /* 第六部分 */
         .r6-1 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r6-1-1.webp');
-            background-size: 100% 100%;
         }
 
 
         .r6-2 {
             background-image: url('/kaifamiao/7-14-dayo5/image/r6-1-2.webp');
-            background-size: 100% 100%;
         }
 
         /* 左右公共部分 */
@@ -207,7 +197,6 @@
             height: 475px;
             background-color: rgb(227, 228, 228);
         }
-
 
         /* 最右边 */
         .h {
@@ -218,7 +207,7 @@
             align-content: space-around;
             position: fixed;
             right: 50px;
-            bottom: 100px;
+            bottom: 150px;
             background-color: rgb(248, 248, 248);
         }
 
@@ -226,7 +215,6 @@
         .g {
             width: 30px;
             height: 30px;
-
         }
 
         .hh {
@@ -245,43 +233,36 @@
 
         .kefu {
             background-image: url("/kaifamiao/7-14-dayo5/image/客服.png");
-            background-size: 100% 100%;
         }
 
         .fankui {
             background-image: url("/kaifamiao/7-14-dayo5/image/反馈.png");
-            background-size: 100% 100%;
         }
 
         .dingbu {
             background-image: url("/kaifamiao/7-14-dayo5/image/返回顶部.png");
-            background-size: 100% 100%;
         }
     </style>
 </head>
 
 <body>
-
-
     <!-- 正文部分 -->
     <div class="box">
-
         <h1>***频道广场***</h1>
-
         <div class="row">
             <!-- 左边部分 -->
             <div class="c1 c">
-                <div class="sp s1 s1-1 t"></div>
-                <div class="sp s1 s1-2 t"></div>
+                <div class="sp s1 s1-1 t allimg"></div>
+                <div class="sp s1 s1-2 t allimg"></div>
                 <div class="sp s2 s2-1">
-                    <div style="width: 240px;" class="s2-1-1-1">生鲜馆</div>
-                    <civ class="s2-1-1 r t"></civ>
-                    <civ class="s2-1-2 r t"></civ>
+                    <div style="width: 240px;" class="s2-1-1-1">生鲜馆<span class="allsub">尝遍天下鲜</span></div>
+                    <civ class="s2-1-1 r t allimg"></civ>
+                    <civ class="s2-1-2 r t allimg"></civ>
                 </div>
                 <div class="sp s2 s2-2">
-                    <div style="width: 240px;" class="s2-2-1-1">拍拍二手</div>
-                    <civ class="s2-2-1 r t"></civ>
-                    <civ class="s2-2-2 r t"></civ>
+                    <div style="width: 240px;" class="s2-2-1-1">拍拍二手<span class="allsub">大牌一元抢</span></div>
+                    <civ class="s2-2-1 r t allimg"></civ>
+                    <civ class="s2-2-2 r t allimg"></civ>
                 </div>
             </div>
 
@@ -291,38 +272,37 @@
             <!-- 右边部分 -->
             <div class="c2 c">
                 <div class="right r1">
-                    <div style="width: 240px;" class="r1-1-1">京东工品购</div>
-                    <civ class="r1-1 r t"></civ>
-                    <civ class="r1-2 r t"></civ>
+                    <div style="width: 240px;" class="r1-1-1">京东工品购<span class="allsub">PLUS专享福利</span></div>
+                    <civ class="r1-1 r t allimg"></civ>
+                    <civ class="r1-2 r t allimg"></civ>
                 </div>
                 <div class="right r2">
-                    <div style="width: 240px;" class="r1-1-1">京东酒行</div>
-                    <civ class="r2-1 r t"></civ>
-                    <civ class="r2-2 r t"></civ>
+                    <div style="width: 240px;" class="r1-1-1">京东酒行<span class="allsub">享全球美酒品美好生活</span></div>
+                    <civ class="r2-1 r t allimg"></civ>
+                    <civ class="r2-2 r t allimg"></civ>
                 </div>
                 <div class="right r3">
-                    <div style="width: 240px;" class="r1-1-1">京东图书</div>
-                    <civ class="r3-1 r t"></civ>
-                    <civ class="r3-2 r t"></civ>
+                    <div style="width: 240px;" class="r1-1-1">京东图书<span class="allsub">专注优质好书</span></div>
+                    <civ class="r3-1 r t allimg"></civ>
+                    <civ class="r3-2 r t allimg"></civ>
                 </div>
                 <div class="right r4">
-                    <div style="width: 240px;" class="r1-1-1">京东五金城</div>
-                    <civ class="r4-1 r t"></civ>
-                    <civ class="r4-2 r t"></civ>
+                    <div style="width: 240px;" class="r1-1-1">京东五金城<span class="allsub">工艺品一站式采购</span></div>
+                    <civ class="r4-1 r t allimg"></civ>
+                    <civ class="r4-2 r t allimg"></civ>
                 </div>
                 <div class="right r5">
-                    <div style="width: 240px;" class="r1-1-1">京东京造</div>
-                    <civ class="r5-1 r t"></civ>
-                    <civ class="r5-2 r t"></civ>
+                    <div style="width: 240px;" class="r1-1-1">京东京造<span class="allsub">京东自有品牌</span></div>
+                    <civ class="r5-1 r t allimg"></civ>
+                    <civ class="r5-2 r t allimg"></civ>
                 </div>
                 <div class="right r6">
-                    <div style="width: 240px;" class="r1-1-1">电脑数码</div>
-                    <civ class="r6-1 r t"></civ>
-                    <civ class="r6-2 r t"></civ>
+                    <div style="width: 240px;" class="r1-1-1">电脑数码<span class="allsub">值得买的低价</span></div>
+                    <civ class="r6-1 r t allimg"></civ>
+                    <civ class="r6-2 r t allimg"></civ>
                 </div>
             </div>
         </div>
-
     </div>
 
     <!-- 顶部按钮的设定 -->
@@ -330,9 +310,9 @@
         <div class="g hh miaosha">京东秒杀</div>
         <div class="g hh pindao">频道广场</div>
         <div class="g hh tuijian">为你推荐</div>
-        <div class="g kefu"></div>
-        <div class="g fankui"></div>
-        <div class="g dingbu"></div>
+        <div class="g kefu allimg"></div>
+        <div class="g fankui allimg"></div>
+        <div class="g dingbu allimg"></div>
     </div>
 
 </body>
