@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cartoon {
+            width: 100px;
+		    height: 100px;
+		    margin: 50px auto;
+		    position: relative;
+		    /* transform: translateY(-30px); */
+        }
+        .cartoon> div {
+            width: 70px;
+            height: 70px;
+            background-color: rgb(0, 255, 255);
+            border-radius: 100%;
+            margin: 2px;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            opacity: 1;
+            
+            animation: cartoon 1s linear infinite both ;
+        }
+
+        .cartoon > div:nth-child(1){
+            animation-delay: 0.2s;
+        }
+        .cartoon > div:nth-child(2){
+            animation-delay: 0.4s;
+        }
+        .cartoon > div:nth-child(3){
+            animation-delay: 0.6s;
+        }
+        .cartoon > div:nth-child(4){
+            animation-delay: 0.8s;
+        }
+
+        @keyframes cartoon {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(0.4);
+                opacity: 1;
+            }
+            75% {
+                transform: scale(0.7);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="cartoon">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+</body>
+
+</html>
