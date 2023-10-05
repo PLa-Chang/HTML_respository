@@ -1,0 +1,143 @@
+.library {
+    width: 1137px;
+    height: 3000px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.left2 {
+    width: 705px;
+    height: 2262px;
+    /* background-color: brown; */
+    margin-top: 10px;
+}
+
+.right2 {
+    width: 380px;
+    height: 2200px;
+    margin-top: 10px;
+    margin-right: 20px;
+    /* background-color: blue; */
+}
+
+.left-top1 {
+    width: 705px;
+    height: 33px;
+    /* background-color: blueviolet; */
+}
+
+.zixun {
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rs {
+    font-size: 20px;
+    margin-left: 523px;
+}
+
+.left-top2 {
+    width: 705px;
+    height: 150px;
+    border: 1px solid;
+    /* background-color: chartreuse; */
+}
+
+.title {
+    line-height: 1.38px;
+    font-size: 15px;
+    color: rgb(92, 92, 226);
+    margin-left: 5px;
+}
+
+.meta {
+    display: block;
+    color: #aaa;
+    font-size: 13px;
+    line-height: 1;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.abstract {
+    width: 500px;
+    color: #494949;
+    line-height: 1.5;
+    margin: 8px 0 0 5px;
+    font-size: 13px;
+}
+.picture {
+    background-image: url("book-img/3.png");
+    width: 90px;
+    height: 122px;
+    background-size: 100% 100%;
+    position: relative;
+    top: -98px;
+    right: -565px;
+}
+
+
+
+/* 最右边的部分： */
+.right2-r1 {
+    width: 380px;
+    height: 773px;
+    /* background-color: cornflowerblue; */
+}
+
+.bd {
+    width: 380px;
+    border-bottom: 1px dashed black;
+}
+
+.d1 { 
+    height: 30px;
+}
+.bd1 {
+    height: 55px;
+}
+.book1 {
+    width: 3px;
+}
+.name1 {
+    position: relative;
+    top: 24px;
+    left: -66px;
+    font-size: 14px;
+    color: #a3a1a1;
+
+}
+.btn {
+    color: #989898;
+    position: relative;
+    top: 7px;
+    left: 177px;
+}
+.gg:hover {
+    color: antiquewhite;
+}
+
+.right2-r2 {
+    width: 380px;
+    height: 770px;
+    background-color: darkorange;
+}
+
+
+
+
+
+
+
+
+.left3 {
+    width: 705px;
+    height: 150px;
+    background-color: brown;
+    /* margin-top: 10px; */
+}

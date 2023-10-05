@@ -1,0 +1,103 @@
+/* 新书速递部分： */
+.newBook {
+    width: 1149px;
+    height: 705px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.newBook-left {
+    width: 685px;
+    height: 600px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.newBook-left-a {
+    width: 870px;
+    height: 40px;
+    border-bottom: 1px solid;
+}
+
+#b {
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 4px;
+    margin-left: 5px;
+}
+
+.href {
+    font-size: 13px;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+}
+
+.href:visited {
+    color: rgb(155, 155, 155);
+}
+
+.href2 {
+    /* margin-right: 20px; */
+    margin-left: 30px;
+    font-size: 13px;
+    color: rgb(7, 125, 242);
+    text-decoration: none;
+}
+
+.newBook-left-book {
+    width: 870px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.g {
+    width: 674px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.newBook-left-book-top {
+    height: 290px;
+    position: relative;
+    top: 20px;
+}
+
+
+.newBook-left-book-bottom {
+    height: 280px;
+}
+
+.book {
+    width: 115px;
+    height: 171px;
+    background-image: url(book-img/2.png);
+    background-size: 100% 100%;
+}
+.book-A {
+    height: 20px;
+    width: 674px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.book-B {
+    height: 40px;
+    width: 674px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.book-name{
+    width: 127px;
+
+}

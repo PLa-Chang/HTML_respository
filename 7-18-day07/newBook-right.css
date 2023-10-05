@@ -1,0 +1,63 @@
+.newBook-right {
+    width: 380px;
+    height: 693px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.lable {
+    width: 380px;
+    height: 100px;
+    border-bottom: 1px dashed;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-top {
+    height: 40px;
+    /* margin-bottom: 10px; */
+}
+
+#remen {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#remen-a {
+    font-size: 13px;
+    color: blue;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#remen-a:visited {
+    color: blue;
+}
+
+.l {
+    width: 380px;
+    height: 15px;
+}
+.b{
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-button {
+    margin-bottom: 10px;
+}
+
+button {
+    height: 30px;
+    border: none;
+    color: rgb(51, 119, 170);
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    /* padding: 10px; */
+    margin-left: 8px;
+}
+button:hover {
+    opacity: .5;
+}
