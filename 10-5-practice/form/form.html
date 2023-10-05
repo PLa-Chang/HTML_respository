@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form表单的练习</title>
+    <style>
+        /* 使用CSS设置表格的行间距 */
+        table {
+            border-collapse: separate; /* 设置为独立的边框模式 */
+            border-spacing: 10px; /* 设置行间距为10像素 */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form action="#" method="post">
+                    <table>
+                        <tr >
+                            <td>登录名：</td>
+                            <td><input type="text" name="username" id="username" placeholder="请输入用户名">（ 可包含a-z、0-9 和下划线）</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>密码：</td>
+                            <td><input type="password" name="password" id="password" placeholder="请输入密码">（至少包含6个字符）</td>
+                        </tr>
+
+                        <tr>
+                            <td>再次输入密码：</td>
+                            <td><input type="password" name="password2" id="password2" placeholder="请再次输入密码"></td>   
+                        </tr>
+                        <tr>
+                            <td>电子邮箱：</td>
+                            <td><input type="email" name="email" id="email" placeholder="请输入电子邮箱">（必须包含@字符）</td>
+                        </tr>
+                        <tr>
+                            <td>性别：</td>
+                            <td><input type="radio" name="sex" checked><img src="images/Male.gif">男<input type="radio" name="sex"><img src="images/Female.gif">女</td>
+                        </tr>
+                        <tr>
+                            <td>头像：</td>
+                            <td><input type="file" name="head" id="head"></td>
+                        </tr>
+                        <tr>
+                            <td>爱好：</td>
+                            <td><input type="checkbox" name="hobby" checked>运动<input type="checkbox" name="hobby">聊天<input type="checkbox" name="hobby">玩游戏</td>
+                        </tr>
+                        <tr>
+                            <td>喜欢的城市：</td>
+                            <td><select name="city" id="city">
+                                <option value="sel">[请选择城市]</option>
+                                <option value="beijing">北京</option>
+                                <option value="shanghai">上海</option>
+                                <option value="guangzhou">广州</option>
+                                <option value="shenzhen">深圳</option>
+                    
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button disabled>同意右侧服务条款，提交注册信息</button>
+                            <button type="reset">重&emsp;  填</button>
+                            </td>
+                    </table>
+            </form>
+        </td>
+            <td>
+                <form action="#">
+                    <h3><img src="images/read.gif">阅读贵美网服务协议</h3>
+                    <!-- <input type="range" name="range" id="range" min="0" max="100" step="10" value="50"> -->
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="欢迎阅读服务条款协议…………"></textarea>
+                </form>
+            </td>
+        </tr>
+    </table>
+    
+    
+</body>
+</html>
