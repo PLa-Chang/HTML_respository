@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字轮播的效果</title>
+    <style>
+        .text{
+            margin: auto;
+            padding: 200px;
+            width: 250px;
+            height: 25px;
+            
+            overflow: hidden;
+            white-space: nowrap;
+            
+        }
+        .box{
+            display: inline-block;
+            animation: textcontainer 10s linear infinite;
+        }
+        @keyframes textcontainer  {
+            0%{
+                transform: translateX(0);
+            }
+            100%{
+                transform: translateX(-100%);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <div class="box">
+            <span>
+            时隔三年，央视《新闻联播》主播再次“上新”。10月5日晚，《新闻联播》新主播王音棋亮相，与潘涛搭档。不少网友都为她的首秀给出肯定，称赞她“清雅端庄，声音清甜”。而这个来自江苏兴化的姑娘，还是《新闻联播》首位“90后”主播。
+        </span>
+        </div>
+    </div>
+</body>
+</html>
