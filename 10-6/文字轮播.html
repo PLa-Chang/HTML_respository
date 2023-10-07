@@ -6,24 +6,34 @@
     <title>文字轮播的效果</title>
     <style>
         .text{
+            /* margin: auto; 是指文字的位置居中 */
             margin: auto;
+            /* padding: 200px; 是指文字的上下左右的间距 */
             padding: 200px;
             width: 250px;
             height: 25px;
             
+            /* overflow: hidden; 是指超出的文字隐藏 */
             overflow: hidden;
+            /* white-space: nowrap; 是指文字不换行 */
             white-space: nowrap;
             
         }
         .box{
+            /* display: inline-block; 是指文字横向排列 */
             display: inline-block;
+            /* animation: textcontainer 10s linear infinite; 是指文字的动画效果 */
+            /* animation: 动画名称 动画时间 动画速度 动画次数 */
+            /* 动画名称：textcontainer 10s 表示文字的动画时间为10秒 linear 表示动画的速度为匀速 infinite 表示动画的次数为无限次 */
             animation: textcontainer 10s linear infinite;
         }
         @keyframes textcontainer  {
             0%{
+                /* transform: translateX(0); 是指文字的初始位置 */
                 transform: translateX(0);
             }
             100%{
+                /* transform: translateX(-100%); 是指文字的结束位置 */
                 transform: translateX(-100%);
             }
             
@@ -34,8 +44,8 @@
     <div class="text">
         <div class="box">
             <span>
-            时隔三年，央视《新闻联播》主播再次“上新”。10月5日晚，《新闻联播》新主播王音棋亮相，与潘涛搭档。不少网友都为她的首秀给出肯定，称赞她“清雅端庄，声音清甜”。而这个来自江苏兴化的姑娘，还是《新闻联播》首位“90后”主播。
-        </span>
+                时隔三年，央视《新闻联播》主播再次“上新”。10月5日晚，《新闻联播》新主播王音棋亮相，与潘涛搭档。不少网友都为她的首秀给出肯定，称赞她“清雅端庄，声音清甜”。而这个来自江苏兴化的姑娘，还是《新闻联播》首位“90后”主播。
+            </span>
         </div>
     </div>
 </body>
