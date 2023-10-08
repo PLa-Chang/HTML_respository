@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城</title>
+    <style>
+        .box{
+            margin: 20px auto;
+            width: 1226px;
+            height: 700px;
+            background-color: rgb(245, 245, 245);
+        }
+        .bhead{
+            width: 100%;
+            height: 50px;
+        }
+        .bbody{
+            margin: 22px;
+            width: calc(100% - 44px);
+            height: calc(100% - 50px - 40px);
+            display: flex;
+        }
+        .left{
+            width: calc(100% / 5);
+            height: 100%;
+            background-image: url("https://i1.mifile.cn/a4/xmad_15632723287643_WkFwH.jpg");
+            background-size: cover;
+        }
+        .right{
+            margin-left: 10px;
+            width: calc(100% / 5 * 4);
+            height: 100%;
+            float: left;
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-wrap: wrap;
+        }
+        .i1{
+            width: calc(100% / 4 - 10px);
+            height: calc(100% / 2 - 10px);
+            background-color: white;
+        }
+        .left:hover{
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0,0,0,.1);
+        }
+        .i1:hover{
+            /* 鼠标悬停时div标签放大 */
+            transform: scale(1.05);
+            /* 鼠标悬停时div标签阴影 */
+            box-shadow: 0 15px 30px rgba(0,0,0,.1);
+        }
+        .i1-1{
+        
+            background-color: white;
+        }
+        .i1-top{
+            width: 64px;
+            height: 20px;
+            background-color: rgb(131, 196, 78);
+            margin: auto;
+            text-align: center;
+            line-height: 20px;
+            font-size: 16px;
+            color: #f7f4f4;
+        }
+        .one{
+            width: 160px;
+            height: 160px;
+            background-image: url("https://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg");
+            background-size: cover;
+            /* 居中 距离父元素顶部20px */
+            margin: auto;
+        }
+        .t1{
+            font-size: 14px;
+            line-height: 50px;
+            text-align: center;
+
+            display: block;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .t2{
+            margin: 0 10px 10px;
+            height: 18px;
+            font-size: 12px;
+            text-align: center;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            _zoom: 1;
+            color: #b0b0b0;
+        }
+        .price{
+            margin: 0 10px 10px;
+            text-align: center;
+            color: #ff6700;
+        }
+        del{
+            color: #b0b0b0;
+        }
+        .interval{
+            margin: 20px auto 0;
+        }
+        .two{
+            background-image: url("https://i1.mifile.cn/a1/pms_1540429613.4617799!220x220.jpg");
+            
+        }
+        .three{
+            background-image: url("	https://i1.mifile.cn/a1/pms_1552647865.67536173!220x220.jpg");
+        }
+        .four{
+            background-image: url("https://i1.mifile.cn/a1/pms_1554694214.08887531!220x220.png");
+        }
+        .five{
+            background-image: url("https://i1.mifile.cn/a1/pms_1552647865.67536173!220x220.jpg");
+        }
+        .six{
+            background-image: url("https://i1.mifile.cn/a1/pms_1554694214.08887531!220x220.png");
+        }
+        .i6-top{
+            background-color: rgb(236, 13, 13);
+            color: #f7f4f4;
+        }
+        .seven{
+            background-image: url("https://i1.mifile.cn/a1/pms_1554694214.08887531!220x220.png");
+        }
+        .eight{
+            background-image: url("https://i1.mifile.cn/a1/pms_1554694214.08887531!220x220.png");
+        }
+
+        .s{
+            font-size: 20px;
+            color: #121111;
+            line-height: 50px;
+            margin-left: 20px;
+        }
+        a{
+            color: #333333;
+            text-decoration: none;
+        }
+        .show{
+            font-size: 20px;
+            line-height: 50px;
+            margin-left: 20px;
+            /* 居右 */
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="bhead">
+            <span class="s">手机</span>
+            <a class="show" href="https://www.mi.com/a/h/9891.html">查看全部&nbsp;>&nbsp;</a>
+        </div>
+        <div class="bbody">
+            <div class="left"></div>
+            <div class="right">
+                <div class="i1 i1-1">
+                    <div class="i1-top">新品</div>
+                    <div class="one"></div>
+                    <a class="t1" href="https://www.mi.com/">小米9 6GB+128GB</a>
+                    <p class="t2">骁龙855，索尼4800万超广角微距三摄</p>
+                    <p class="price">
+                        <span class="num">2599</span>元  
+                        <del>
+                            <span class="num">2999</span>元
+                        </del>  
+                    </p>
+                </div>
+                <div class="i1 i2">
+                    <div class="one two interval"></div>
+                    <a class="t1" href="https://www.mi.com/">小米9 6GB+128GB</a>
+                    <p class="t2">骁龙855，索尼4800万超广角微距三摄</p>
+                    <p class="price">
+                        <span class="num">2599</span>元  
+                        <del>
+                            <span class="num">2999</span>元
+                        </del>  
+                    </p>
+                </div>
+                <div class="i1 i3">
+                    <div class="one three interval"></div>
+                    <a class="t1" href="https://www.mi.com/">小米9 6GB+128GB</a>
+                    <p class="t2">骁龙855，索尼4800万超广角微距三摄</p>
+                    <p class="price">
+                        <span class="num">2599</span>元  
+                    </p>
+                </div>
+                <div class="i1 i4">
+                    <div class="one four interval"></div>
+                    <a class="t1" href="https://www.mi.com/">小米9 6GB+128GB</a>
+                    <p class="t2">骁龙855，索尼4800万超广角微距三摄</p>
+                    <p class="price">
+                        <span class="num">2599</span>元  
+                        <del>
+                            <span class="num">2999</span>元
+                        </del>  
+                    </p>
+                </div>
+                <div class="i1 i5">
+                    <div class="one five interval"></div>
+                    <a class="t1" href="https://www.mi.com/">小米9 6GB+128GB</a>
+                    <p class="t2">骁龙855，索尼4800万超广角微距三摄</p>
+                    <p class="price">
+                        <span class="num">2599</span>元  
+                        <del>
+                            <span class="num">2999</span>元
+                        </del>  
+                    </p>
+                </div>
+                <div class="i1 i6">
+                    <div class="i1-top i6-top">减200元</div>
+                    <div class="one six"></div>
+                    <a class="t1" href="https://www.mi.com/">小米9 6GB+128GB</a>
+                    <p class="t2">骁龙855，索尼4800万超广角微距三摄</p>
+                    <p class="price">
+                        <span class="num">2799</span>元  
+                        <del>
+                            <span class="num">2999</span>元
+                        </del>  
+                    </p>
+                </div>
+                <div class="i1 i7">
+                    <div class="one seven interval"></div>
+                    <a class="t1" href="https://www.mi.com/">小米9 6GB+128GB</a>
+                    <p class="t2">骁龙855，索尼4800万超广角微距三摄</p>
+                    <p class="price">
+                        <span class="num">2599</span>元
+                    </p>
+                </div>
+                <div class="i1 i8">
+                    <div class="one eight interval"></div>
+                    <a class="t1" href="https://www.mi.com/">小米9 6GB+128GB</a>
+                    <p class="t2">骁龙855，索尼4800万超广角微距三摄</p>
+                    <p class="price">
+                        <span class="num">2599</span>元  
+                        <del>
+                            <span class="num">2999</span>元
+                        </del>  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+</body>
+</html>
