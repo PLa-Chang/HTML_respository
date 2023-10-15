@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javaScript">
+        var stu = {
+            "sname":"zhangsan",
+            "sage":"20",
+            "ssex":"男"
+        }
+        alert(stu.sname + "," + stu.sage + ","+ stu.ssex)
+
+        var stu2 = [
+            {"sname":"zhangsan1","sage":"20","ssex":"男"},
+            {"sname":"zhangsan2","sage":"24","ssex":"男"},
+            {"sname":"zhangsan3","sage":"25","ssex":"男"}
+        ]
+        for(var i=0;i < stu2.length;i++){
+            alert(stu2[i].sno +","+stu2[i].sname+","+stu2[i].sage);
+        }
+
+        var user = {
+            userName: "lisi",
+            "age":30,
+            adderss:{
+                "city":"甘肃",
+                "city2":"陕西"
+            }
+        }
+
+        alert(user.userName + "居住在："+ user.adderss.city)
+    </script>
+</body>
+</html>

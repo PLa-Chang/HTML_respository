@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拼接HTML的方式，设置table的tbody</title>
+</head>
+<body>
+    <script type="text/javaScript">
+        var student = {
+            count : 3,
+            "stus":[
+                {"name":"张三","age":"23"},
+                {"name":"李四","age":"67"},
+                {"name":"王五","age":"12"},
+                {"name":"赵六","age":"45"}
+            ]
+        }
+
+        window.onload=function() {
+            document.getElementById("tbn").onclick=function () {
+                var stus = student.stus;
+                var htmlstr="";
+                for (let i = 0; i < stus.length; i++) {
+                    let s= student.stus[i];
+                    htmlstr += "<tr>";
+                    htmlstr+="<td>"+s.name+"</td>";
+                    htmlstr+="<td>"+s.age+"</td>";
+                    htmlstr+="</tr>"
+                }
+                document.getElementById("tb").innerHTML=htmlstr;
+                document.getElementById("scount").innerHTML = student.count;
+            }
+        }
+    </script>
+    <input type="button" value="拼接表格" id="tbn">
+    <h1>学生信息表</h1>
+    <br>
+    <table width="250px" border="1px">
+        <tr>
+            <td>姓名</td>
+            <td>年龄</td>
+        </tr>
+        <tbody id="tb"></tbody>
+        总计：<span id="scount">0</span>条记录
+    </table>
+</body>
+</html>

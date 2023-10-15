@@ -8,22 +8,17 @@
 <link href="//unpkg.com/layui@2.8.17/dist/css/layui.css" rel="stylesheet">
     <!-- 引入 layui.js -->
 <script src="//unpkg.com/layui@2.8.17/dist/layui.js"></script>
-<style>
-    .box{
-        margin: auto;
-    }
-</style>
 </head>
 <body>
 
 <!-- 
 本「综合演示」包含：自定义头部工具栏、获取表格数据、表格重载、自定义模板、单双行显示、单元格编辑、自定义底部分页栏、表格相关事件与操作、与其他组件的结合等相对常用的功能，以便快速掌握 table 组件的使用。
 -->
-<div class="box">
-    <div style="padding: 16px;"> 
+
+<div style="padding: 16px;"> 
     <table class="layui-hide" id="test" lay-filter="test"></table>
-    </div>
 </div>
+
 
 <script type="text/html" id="toolbarDemo">
   <div class="layui-btn-container">
@@ -161,17 +156,7 @@ layui.use(['table', 'dropdown'], function(){
                   abc: '123456',
                   //test: '新的 test2',
                   //token: '新的 token2'
-                },
-                /*
-                cols: [[ // 重置表头
-                  {type: 'checkbox', fixed: 'left'},
-                  {field:'id', title:'ID', width:80, fixed: 'left', unresize: true, sort: true, totalRowText: '合计：'},
-                  {field:'sex', title:'性别', width:80, edit: 'text', sort: true},
-                  {field:'experience', title:'积分', width:80, sort: true, totalRow: true, templet: '<div>{{= d.experience }} 分</div>'},
-                  {field:'logins', title:'登入次数', width:100, sort: true, totalRow: true},
-                  {field:'joinTime', title:'加入时间', width:120}
-                ]]
-                */
+                }
               });
             break;
             case 'reload-deep':

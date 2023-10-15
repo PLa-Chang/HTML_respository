@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javaScript">
+        // 将一段字符串当作js来执行
+        window.eval("var i = 100");
+        alert(i)
+
+        var javaResponse ="{\"name\":\"zhangsan\",\"password\":\"123\"}";
+        window.eval("var js = " + javaResponse);
+        alert(js.name)  // zhangsan
+        document.write(js.name)
+    </script>
+</body>
+</html>
